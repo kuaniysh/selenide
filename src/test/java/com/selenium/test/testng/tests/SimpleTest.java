@@ -21,11 +21,10 @@ public class SimpleTest {
 
     @Test
     public void testFillGoogleForm() {
-        System.out.println("Hello");
-       /* String toSearch = "Selenium";
+        String toSearch = "Selenium";
         open("http://www.youtube.com");
         SelenideElement searchString  = $("#masthead-search-term");
         searchString.sendKeys(toSearch);
-        $("#masthead-search-term").shouldHave(value(toSearch));*/
+        $("#masthead-search-term").shouldHave(value(toSearch));
     }
 }

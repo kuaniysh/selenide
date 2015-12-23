@@ -20,10 +20,9 @@ public class PageObjectTest {
 
     @Test
     public void testSearch() {
-        System.out.println("Hello");
-        /*YouTubePage youTubePage = open("http://youtube.com", YouTubePage.class);
+        YouTubePage youTubePage = open("http://youtube.com", YouTubePage.class);
         youTubePage.insertSearchString("Selenium");
         YouTubeSearchResultsPage resultsPage = youTubePage.doSearch();
-        assertTrue("No results were found on results page", resultsPage.hasResults());*/
+        assertTrue("No results were found on results page", resultsPage.hasResults());
     }
 }
